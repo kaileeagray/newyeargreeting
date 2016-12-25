@@ -1,17 +1,5 @@
-/*Colors
-red: #8A0917;
-green: #283807;
-snow-blue: #ACCFCC
-light-warm-gray: #B8AE9C
-warm-gray: #595241
-white: #FFFFFF;
-black: #000000;
-*/
-
-
 body {
 	background: url(../images/new_year_background.png)
-
 }
 
 .header-intro {
@@ -26,7 +14,11 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Bungee', cursive;
+	font-family: 'Anton', sans-serif;
+}
+
+h1 {
+	font-size: 8em;
 }
 
 .row.feature p{
@@ -39,9 +31,8 @@ h1, h2, h3, h4, h5 {
 	background-color: #D7D1C6;
 	color: white;
 	border: 2px solid #D7D1C6;
-	border-radius: 25px;
 	padding: 30px 40px;
-	margin-top: -100px;
+	margin-top: -140px;
 
 }
 
@@ -60,7 +51,6 @@ h1, h2, h3, h4, h5 {
 	padding: 20px;
 	background-color: rgba(178, 143, 117, .2);
 	border: 2px solid rgba(178, 143, 117);
-	border-radius: 25px;
 	font-weight: 500;
 	font-size: 2.5em;
 	text-align: center;
@@ -71,11 +61,15 @@ h1, h2, h3, h4, h5 {
 }
 
 .header {
-	color: #AFF0FC;
+	color: #a2e8d0;
 }
 
 .right {
-	text-align: right;
+	float: right;
+}
+
+.left {
+	float: left;
 }
 
 .center {
@@ -103,14 +97,31 @@ h4 {
 }
 
 img {
-	border-radius: 5%;
-	border: 10px solid #769191;
+	border: 10px solid #75a897;
+}
+
+.row p {
+	text-align: center;
+	font-size: 1.25em;
+
 }
 
 .highlights img {
-	width: 30%;
+	width: 100%;
+}
+
+.quote-section p.little {
+	font-size: 1em;
 }
 
 .highlights h4 {
 	padding-bottom: 35px;
+}
+
+footer {
+	display: inline;
+}
+
+hr {
+	margin-bottom: 0;
 }
